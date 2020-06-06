@@ -1,0 +1,89 @@
+
+h1, h3 {
+    color: #333;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin: 30px 0 60px;
+}
+
+h1::after, h3::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    height: 3px;
+    background: #8fbc54;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+.navbar-brand {
+    padding-left: 30px;
+    font-weight: bold;
+    text-transform: uppercase !important;
+}
+
+.cstm-nav {
+    padding-right: 30px;
+}
+
+.cstm-nav>li {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.crd {
+    border: 1px black solid;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+
+.crd-comp-1,
+.crd-comp-2 {
+    padding: 10px 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin: 20px auto;
+    }
+
+    .crd-row {
+        display: block;
+        margin: 10px auto;
+    }
+
+}
+
+.card {
+    width: 250px !important;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 50px !important;
+}
+ h3{
+     color: aliceblue;
+ }
+.main-footer{
+    padding: 70px;
+    background:rgb(53, 52, 52);
+    margin-top: 50px;
+    color: whitesmoke;
+}
+
+.footer {
+    height: 50px;
+    background: rgba(0, 0, 255, 0.623);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
